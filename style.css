@@ -1,0 +1,376 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+background-image: url(https://images2.alphacoders.com/608/608038.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: black; */
+    /* position: fixed; */
+}
+.navicon img{
+    height: 30px;
+    margin: 20px 20px;
+}
+.navright{
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+    gap: 35px;
+    margin-right: 40px;
+}
+.navright p{
+    color: white;
+    font-size: 17px;
+}
+.navright p:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+.strengthgym{
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.strengthgym h1{
+    position: absolute;
+    margin-top: 10%;
+    font-size: 60px;
+    color: white;
+}
+.strengthgym img{
+    position: absolute;
+    height: 10px;
+    margin-top: 17%;
+    /* margin-left: 10px; */
+}
+.strengthgym p{
+    position: absolute;
+    margin-top: 20%;
+    font-size: 25px;
+    color: white;
+}
+.strengthgym .button{
+    margin-top: 25%;
+    gap: 30px;
+}
+.button .starthere{
+    padding: 10px 15px;
+    margin-right: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.button .starthere:hover{
+    
+}
+.button .get{
+    padding: 10px 15px;
+    /* background-color: transparent; */
+    color: black;
+    border: 1px solid white;
+}
+.button .get:hover{
+    background-color: transparent;
+    color: white;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+}
+.page2 h2{
+    position: absolute;
+    margin-top:5%;
+    font-size: 35px;
+}
+.page2 img{
+    position: absolute;
+    height: 10px;
+    margin-top: 10%;
+    /* margin-left: 10px; */
+}
+.page2 p{
+    text-align: center;
+    margin-top: 13%;
+}
+.WEDO{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: -27%;
+    text-align: center;
+    line-height: 30px;
+    gap: 30px;
+    margin-left: 10%;
+
+}
+.moreenergy img{
+    height: 30%;
+}
+.moreenergy h3{
+    margin-top: 10px;
+    font-size: 35px;
+}
+.moreenergy p{
+    margin-top: 20px;
+}
+
+.confident img{
+    height: 30%;
+}
+.confident h3{
+    margin-top: 10px;
+    font-size:35px;
+}
+.confident p{
+    margin-top: 20px;
+}
+.life img{
+    height: 30%;
+}
+.life h3{
+    margin-top: 10px;
+    font-size: 35px;
+}
+.life p{
+    margin-top: 20px;
+}
+.WEDO button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.page3{
+    margin-top: 20%;
+    height: 60%;
+}
+.page3 img{
+    height: 100%;
+    width: 100%;
+    
+}
+.page3 h3{
+    z-index: 1000;
+    margin-top: -20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.page3 .picture img{
+    position: absolute;
+    height: 10px;
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+.page3 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.page3 button{
+    padding: 10px 20px;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 46%;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white; 
+}
+.page4{
+    height: 100%;
+    width: 100%;
+}
+.page4 h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+    font-size: px;
+}
+.page4 img{
+    margin-top: 30px;
+    margin-left: 45%;
+}
+.page4 .content{
+    margin-top: 7%;
+    margin-left: 10%;
+    font-size: 17px;
+    line-height: 30px;
+}
+.page4 .rightimg img{
+    position: absolute;
+    width: 40%;
+    margin-top: -30%;
+    margin-left: 50%;
+}
+.page4 .content button{
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.popularposts{
+    height: 75%;
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    margin-top: 7% ;
+}
+.popularposts h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+
+}
+.popularposts .images{
+    display: grid;
+    grid-template-columns: repeat(3 ,0fr);
+    gap: 20px;
+    margin-left: 15%;
+
+}
+.images img{
+    height: 25%;
+    margin-top: 20%;
+    /* margin-left: 80%; */
+}
+.webelieve{
+    
+}
+.webelieve h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.webelieve img{
+    margin-top: 30px;
+    margin-left: 46%;
+}
+.webelieve p{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.webelieve button{
+    padding: 10px 25px;
+    margin-top: 40px;
+    margin-left: 43%;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.webelieve button:hover{
+    cursor: pointer;
+    background-color: rgb(245, 244, 244);
+}
+.contactus{
+    height: 50%;
+}
+.contactus h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.contactus img{
+    margin-left: 46%;
+    margin-top: 30px;
+}
+.acc{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.acc img{
+    margin-top: 50px;
+    height: 60%;
+    margin-left:40%;
+}
+.footer{
+    height: 40%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    position: relative;
+}
+.footer h3{
+    margin-bottom: 20px;
+}
+.footer p{
+    font-size: 17px;
+}
+.services{
+    margin-top: 7%;
+}
+.services h3{
+    font-size: 25px;
+}
+/* .services img{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 70%;
+} */
+.learnmore{
+    margin-top: 7%;
+}
+.learnmore h3{
+    font-size: 25px;
+}
+.support{
+    margin-top: 7%;
+}
+.support h3{
+    font-size: 25px;
+}
+/* .support img{
+    margin-top: 10%;
+    width: 20%;
+} */
+.address{
+    margin-top: 7%;
+}
+.address h3{
+    font-size: 25px;
+}
+ .copywrite {
+    height: 10%;
+ }
+ .copywrite hr{
+    width: 90%;
+    /* margin-top: -20%;
+    z-index: 1000; */
+    color: red;
+    margin-left: 7%;
+ }
+ .copywrite h5{
+    margin-left: 10%;
+    margin-top: 20px;
+ }
+ .copywrite h6{
+    margin-left: 70%;
+    margin-top: -15px;
+    font-size: 17px;
+ }
